@@ -51,75 +51,70 @@
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+  <span>Show Contacts</span>
+  <ion-icon name="chevron-down"></ion-icon>
+</button>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+</div>
 
+<div class="sidebar-info_more">
+
+  <div class="separator"></div>
+
+  <ul class="contacts-list">
+
+    <li class="contact-item">
+      <div class="icon-box">
+        <ion-icon name="mail-outline"></ion-icon>
       </div>
+      <div class="contact-info">
+        <p class="contact-title">Email</p>
+        <a href="mailto:workwithsuhel@gmail.com" class="contact-link">workwithsuhel@gmail.com</a>
+      </div>
+    </li>
 
-      <div class="sidebar-info_more">
+    <li class="contact-item">
+      <div class="icon-box">
+        <ion-icon name="call-outline"></ion-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Mobile</p>
+        <a href="tel:+918931004042" class="contact-link">+91 89310 04042</a>
+      </div>
+    </li>
 
-        <div class="separator"></div>
+    <li class="contact-item">
+      <div class="icon-box">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">WhatsApp</p>
+        <a href="https://wa.me/918931004042" class="contact-link" target="_blank">+91 89310 04042</a>
+      </div>
+    </li>
 
-        <ul class="contacts-list">
+    <li class="contact-item">
+      <div class="icon-box">
+        <ion-icon name="calendar-outline"></ion-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Landed On Earth</p>
+        <time datetime="2002-08-18">August 11, 2005</time>
+      </div>
+    </li>
 
-          <li class="contact-item">
+    <li class="contact-item">
+      <div class="icon-box">
+        <ion-icon name="location-outline"></ion-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Location</p>
+        <address>Lucknow, India</address>
+      </div>
+    </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:workwithsuhel@gmail.com" class="contact-link">workwithsuhel@gmail.com</a>
-            </div>
-            
-
-          </li>
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="call-outline"></ion-icon>
-            </div>
-          
-            <div class="contact-info">
-              <p class="contact-title">Mobile</p>
-          
-              <a href="tel:+918931004042" class="contact-link">+91 89310 04042</a>
-            </div>
-          
-          </li>
-         <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Landed On Earth</p>
-
-              <time datetime="2002-08-18">August 11, 2005</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Lucknow, India</address>
-            </div>
-
-          </li>
-
-        </ul>
+  </ul>
+</div>
 
         <div class="separator"></div>
 
@@ -238,40 +233,62 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+  <h3 class="h3 service-title">What I'm Doing</h3>
 
-          <ul class="service-list">
+  <ul class="service-list">
 
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src=".\assets\images\project-2.png" alt="cloud icon" width="40">
-              </div>
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src=".\assets\images\project-2.png" alt="cloud icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">DevOps Engineering</h4>
+        <p class="service-item-text">
+          Automating software delivery pipelines, integrating CI/CD practices, and managing infrastructure as code to ensure efficient and reliable deployments.
+        </p>
+      </div>
+    </li>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">DevOps Engineering</h4>
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src=".\assets\images\project-2.png" alt="Web development icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Cloud Infrastructure Management</h4>
+        <p class="service-item-text">
+          Provisioning, monitoring, and optimizing cloud resources on AWS to ensure performance, scalability, and cost-efficiency.
+        </p>
+      </div>
+    </li>
 
-                <p class="service-item-text">
-                  Automating software delivery pipelines, integrating CI/CD practices, and managing infrastructure as code to ensure efficient and reliable deployments.
-                </p>
-              </div>
-            </li>
-             <li class="service-item">
-              <div class="service-icon-box">
-                <img src=".\assets\images\project-2.png" alt="Web development icon" width="40">
-              </div>
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src=".\assets\images\project-2.png" alt="SRE icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Site Reliability Engineering (SRE)</h4>
+        <p class="service-item-text">
+          Applying software engineering to infrastructure and operations, enhancing system reliability, scalability, and performance while ensuring fast, efficient incident response.
+        </p>
+      </div>
+    </li>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cloud Infrastructure Management</h4>
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src=".\assets\images\project-2.png" alt="Linux analysis icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Linux Root Analytics</h4>
+        <p class="service-item-text">
+          Deep analysis and monitoring of Linux systems at the root level to detect performance bottlenecks, security vulnerabilities, and optimize system operations for stability and speed.
+        </p>
+      </div>
+    </li>
 
-                <p class="service-item-text">
-                   Provisioning, monitoring, and optimizing cloud resources on AWS to ensure performance, scalability, and cost-efficiency.
-                </p>
-              </div>
-            </li>
+  </ul>
 
-          </ul>
+</section>
 
-        </section>
 
 
         <div class="modal-container" data-modal-container>
@@ -286,7 +303,7 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="./assets/images/avatar-1.png" alt="SUHEL KHAN" width="80" data-modal-img>
               </figure>
 
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
@@ -294,9 +311,10 @@
 
             <div class="modal-content">
 
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <h4 class="h3 modal-title" data-modal-title>SUHEL KHAN</h4>
 
-              <time datetime="2021-06-14">14 June, 2021</time>
+              <p class="modal-text" data-modal-text>
+                DevOps Engineer
 
               <div data-modal-text>
                 <p>
@@ -395,7 +413,7 @@
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">E-commerce Application (MERN Stack)</h4>
 
-              <span>February 2025 — Present</span>
+              <span>February 2025 — March 2025</span>
 
               <p class="timeline-text">
                 ► Engineered a full-stack MERN application optimized for scalable, responsive user interactions and efficient data
@@ -502,6 +520,18 @@
               <div class="title-wrapper">
                 <h5 class="h5">AWS Cloud Services</h5>
                 <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+             <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Linux Root Analytics</h5>
+                <data value="65">55%</data>
               </div>
 
               <div class="skill-progress-bg">
